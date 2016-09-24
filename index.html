@@ -10,6 +10,9 @@
           type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="shortcut icon" type="image/png" href="rex.png"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/component.css"/>
+
 </head>
 <body>
 <section class="page-header">
@@ -57,15 +60,30 @@
     <p>
         Go check out my <a href="https://www.linkedin.com/in/rex-cambarijan-0160236a">Linkedin Profile.</a>
     </p>
-    <h3>
-        <a class="anchor" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-        </a>Portfolio ON PROGRESS..
-    </h3>
-
+    <!-- /grid-wrap -->
 
 </section>
 
+<section class="main-content">
+    <h3>
+        <a class="anchor" aria-hidden="true">
+            <span aria-hidden="true" class="octicon octicon-link"></span>
+        </a>Check some of my work
+        <small>(<i>These are my work publish on public</i>)</small>
+    </h3>
+    <div class="grid-wrap">
+        <div class="grid">
+            <figure><img src="img/thumbs/avefunding.PNG"/></figure>
+            <figure><img src="img/thumbs/foodeagle.PNG"/></figure>
+            <figure><img src="img/thumbs/foodeaglemobile.PNG"/></figure>
+            <figure><img src="img/thumbs/foodeaglerestaurant.PNG"/></figure>
+            <figure><img src="img/thumbs/gflow.PNG"/></figure>
+            <figure><img src="img/thumbs/gvfunding.PNG"/></figure>
+            <figure><img src="img/thumbs/readysetfunds.PNG"/></figure>
+            <figure><img src="img/thumbs/vavavoos.PNG"/></figure>
+        </div>
+    </div>
+</section>
 <section class="main-content">
     <h3>
         <a class="anchor" aria-hidden="true">
@@ -82,6 +100,14 @@
         <span class="site-footer-credits">&copy; Rex Cambarijan 2015</span>
     </footer>
 </section>
-
+<script src="js/modernizr.custom.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/helper.js"></script>
+<script src="js/grid3d.js"></script>
+<script>
+    $(function(){
+        new grid3D(document.getElementById('grid3d'));
+    });
+</script>
 </body>
 </html>
