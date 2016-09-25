@@ -150,14 +150,14 @@ a:hover {
     max-width: 100%;
 }
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+.grid-wrap h1, .grid-wrap h2, .grid-wrap h3, .grid-wrap h4, .grid-wrap h5, .grid-wrap h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
     color: #159957;
 }
 
-.main-content p {
+.grid-wrap p {
     margin-bottom: 1em;
 }
 
